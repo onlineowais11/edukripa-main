@@ -70,12 +70,6 @@ const Header = ({ onAdminClick }: HeaderProps) => {
             >
               Contact Us
             </button>
-            <button
-              onClick={onAdminClick}
-              className="text-gray-400 hover:text-gray-600 transition-colors duration-200 text-sm"
-            >
-              Admin
-            </button>
           </nav>
 
           {/* Mobile menu button */}

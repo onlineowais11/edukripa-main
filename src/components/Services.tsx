@@ -7,42 +7,42 @@ const Services = () => {
     icon: Calculator,
     title: 'Mathematics',
     description: 'Arithmetic, Algebra, Geometry, Statistics',
-    levels: 'Class 4-12',
+    levels: 'Class 4-10',
     color: 'blue'
   },
   {
     icon: Beaker,
     title: 'Science',
     description: 'Physics, Chemistry, Biology, General Science',
-    levels: 'Class 4-12',
+    levels: 'Class 4-10',
     color: 'green'
   },
   {
     icon: Globe,
     title: 'Social Studies',
     description: 'History, Geography, Civics',
-    levels: 'Class 4-12',
+    levels: 'Class 4-10',
     color: 'purple'
   },
   {
     icon: Languages,
     title: 'Languages',
     description: 'English, Hindi, Literature, Grammar',
-    levels: 'Class 4-12',
+    levels: 'Class 4-10',
     color: 'orange'
   },
   {
     icon: Computer,
     title: 'Computer Science',
     description: 'Basics, Coding, IT Skills',
-    levels: 'Class 4-12',
+    levels: 'Class 4-10',
     color: 'indigo'
   },
   {
     icon: PenTool,
     title: 'Skill Development',
     description: 'Critical Thinking, Communication, Creative Writing',
-    levels: 'Class 4-12',
+    levels: 'Class 4-10',
     color: 'red'
   }
 ];

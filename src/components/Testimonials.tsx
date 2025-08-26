@@ -5,7 +5,7 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: 'Priya Sharma',
-      grade: 'Class 12 Student',
+      grade: 'Class 10 Student',
       subject: 'Mathematics & Physics',
       rating: 5,
       text: "Edukripa's personalized approach helped me improve my mathematics scores from 65% to 95%. The tutors are incredibly patient and make complex concepts easy to understand.",
@@ -94,7 +94,7 @@ const Testimonials = () => {
               <div className="text-blue-100">Happy Students</div>
             </div>
             <div>
-              <div className="text-3xl md:text-4xl font-bold text-white mb-2">95%</div>
+              <div className="text-3xl md:text-4xl font-bold text-white mb-2">98%</div>
               <div className="text-blue-100">Success Rate</div>
             </div>
             <div>

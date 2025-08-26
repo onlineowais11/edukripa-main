@@ -89,7 +89,7 @@ const Hero = () => {
                       <p className="text-sm text-gray-600">Advanced Level</p>
                     </div>
                   </div>
-                  <span className="text-green-500 font-semibold">97%</span>
+                  <span className="text-green-500 font-semibold">98.9%</span>
                 </div>
                 
                 <div className="flex items-center justify-between">
@@ -98,11 +98,11 @@ const Hero = () => {
                       <BookOpen className="h-6 w-6 text-green-600" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900">Physics</h3>
-                      <p className="text-sm text-gray-600">Intermediate Level</p>
+                      <h3 className="font-semibold text-gray-900">Science</h3>
+                      <p className="text-sm text-gray-600">Advanced Level</p>
                     </div>
                   </div>
-                  <span className="text-green-500 font-semibold">94%</span>
+                  <span className="text-green-500 font-semibold">96%</span>
                 </div>
                 
                 <div className="flex items-center justify-between">
@@ -111,11 +111,11 @@ const Hero = () => {
                       <BookOpen className="h-6 w-6 text-purple-600" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-gray-900">Chemistry</h3>
+                      <h3 className="font-semibold text-gray-900">Computer Science</h3>
                       <p className="text-sm text-gray-600">Foundation Level</p>
                     </div>
                   </div>
-                  <span className="text-green-500 font-semibold">92%</span>
+                  <span className="text-green-500 font-semibold">95%</span>
                 </div>
               </div>
             </div>

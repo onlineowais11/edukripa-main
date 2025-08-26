@@ -84,7 +84,7 @@ const About = () => {
             </div>
             <div className="bg-white rounded-xl p-8 shadow-lg">
               <div className="text-center">
-                <div className="text-4xl font-bold text-blue-600 mb-2">95%</div>
+                <div className="text-4xl font-bold text-blue-600 mb-2">98%</div>
                 <p className="text-gray-600 mb-4">Student Success Rate</p>
                 <div className="w-full bg-gray-200 rounded-full h-2 mb-6">
                   <div className="bg-blue-600 h-2 rounded-full w-[95%]"></div>
