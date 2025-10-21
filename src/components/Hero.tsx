@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowRight, Star, Users, BookOpen } from 'lucide-react';
 
 const Hero = () => {
@@ -35,12 +34,13 @@ const Hero = () => {
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
               <button
-                onClick={scrollToContact}
-                className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 font-semibold text-lg flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
-              >
-                Start Learning Today
-                <ArrowRight className="h-5 w-5" />
-              </button>
+  onClick={() => window.open("https://learning.edukripa.com", "_blank")}  // Open the link in a new tab
+  className="bg-blue-600 text-white px-8 py-4 rounded-lg hover:bg-blue-700 transition-all duration-200 font-semibold text-lg flex items-center justify-center gap-2 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
+>
+  Start Learning Today
+  <ArrowRight className="h-5 w-5" />
+</button>
+
               <button
                 onClick={scrollToServices}
                 className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-lg hover:bg-blue-600 hover:text-white transition-all duration-200 font-semibold text-lg"

@@ -1,12 +1,8 @@
 import { useState } from 'react';
-import { Menu, X, BookOpen } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import logo from '../lib/images/Edukripa_Logo.png';
 
-interface HeaderProps {
-  onAdminClick: () => void;
-}
-
-const Header = ({ onAdminClick }: HeaderProps) => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -70,6 +66,14 @@ const Header = ({ onAdminClick }: HeaderProps) => {
             >
               Contact Us
             </button>
+            {/* <a
+              href="https://learning.edukripa.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors duration-200 font-medium"
+            >
+              Student Portal
+            </a> */}
           </nav>
 
           {/* Mobile menu button */}
@@ -117,12 +121,14 @@ const Header = ({ onAdminClick }: HeaderProps) => {
               >
                 Contact Us
               </button>
-              <button
-                onClick={onAdminClick}
-                className="text-gray-600 hover:text-blue-600 transition-colors duration-200 font-medium text-left"
+              <a
+                href="https://learning.edukripa.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors duration-200 font-medium text-center block"
               >
-                Admin Login
-              </button>
+                Student Portal
+              </a>
             </nav>
           </div>
         )}

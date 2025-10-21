@@ -39,12 +39,12 @@ const Services = () => {
     color: 'indigo'
   },
   {
-    icon: PenTool,
-    title: 'Skill Development',
-    description: 'Critical Thinking, Communication, Creative Writing',
-    levels: 'Class 4-10',
-    color: 'red'
-  }
+      icon: BookOpen,
+      title: 'Commerce',
+      description: 'Accountancy, Economics, Business Studies',
+      levels: 'Class 11-12, CA Foundation',
+      color: 'red'
+    }
 ];
 
   const colorVariants = {
