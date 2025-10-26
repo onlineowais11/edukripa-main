@@ -7,7 +7,7 @@ const Services = () => {
     icon: Calculator,
     title: 'Mathematics',
     description: 'Arithmetic, Algebra, Geometry, Statistics',
-    levels: 'Class 4-10',
+    levels: 'Class 4-12',
     color: 'blue'
   },
   {
@@ -27,7 +27,7 @@ const Services = () => {
   {
     icon: Languages,
     title: 'Languages',
-    description: 'English, Hindi, Literature, Grammar',
+    description: 'English, Hindi, Kannada',
     levels: 'Class 4-10',
     color: 'orange'
   },
@@ -35,7 +35,7 @@ const Services = () => {
     icon: Computer,
     title: 'Computer Science',
     description: 'Basics, Coding, IT Skills',
-    levels: 'Class 4-10',
+    levels: 'Class 4-12',
     color: 'indigo'
   },
   {
