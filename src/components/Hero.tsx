@@ -22,15 +22,19 @@ const Hero = () => {
           {/* Left side - Content */}
           <div className="text-center lg:text-left">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-              Excel in Your
-              <span className="text-blue-600 block">Academic Journey</span>
+              Edukripa
+              <span className="text-blue-600 block">
+                Academic Tuitions for School Students
+              </span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Professional tutoring services designed to unlock your potential. 
-              Our expert educators provide personalized learning experiences 
-              that build confidence and achieve results.
+              Edukripa provides structured academic tuitions for school students,
+              focusing on concept clarity, strong fundamentals, and exam readiness.
+              We help students improve academic performance with guided learning
+              and regular practice.
             </p>
-            
+
+
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
               <button
